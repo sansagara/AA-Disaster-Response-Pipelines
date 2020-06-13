@@ -1,0 +1,8 @@
+sqlalchemy
+nltk
+sklearn
+pickle-mixin
+pandas
+plotly
+
+
