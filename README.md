@@ -1,22 +1,13 @@
 # Disaster Response AA Pipeline
 This is a simple Advanced Analytics project to automatically classify emergency messages on social media.
+The idea is simple: Given a short message, detect if it is related to a particular emergency 🚨 
 
 ## Overview
-As part of Udacity's the DS Nanodegree, we've learned and built on data engineering skills to expand
- opportunities and potential as a data scientist. 
-In this project, you'll apply these skills to analyze disaster data from Figure Eight to build a model
- for an API that classifies disaster messages.
+In this project, we use Data/ML Engineering to process real disaster messages provided by [FigureEight to build a ML model so an API can classify disaster messages](https://www.vertosoft.com/figureeight).
 
-In the Project Workspace, there's a data set containing real messages 
-that were sent during disaster events. 
-We will be creating a machine learning pipeline to categorize these events so that you 
-can send the messages to an appropriate disaster relief agency.
+Here, I've created a Data/ML pipeline to categorize these events so that any meesage gets categorized as an emergency and possibly routed to the appropriate Emergency Response Agency.
 
-The project will include a web app where an emergency worker can input 
-a new message and get classification results on several categories. 
-The web app will also display visualizations of the data. 
-This project will show off your software skills, 
-including your ability to create basic data pipelines and write clean, organized code!
+The project includes a Flask web app where an emergency worker can input a new messages and get classification results on several categories. The web app will also display some visualizations of the data.
 
 ## Project 
 ### Components 
