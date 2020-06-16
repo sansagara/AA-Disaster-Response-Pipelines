@@ -3,9 +3,9 @@ This is a simple Advanced Analytics project to automatically classify emergency 
 The idea is simple: Given a short message, detect if it is related to a particular emergency 🚨 
 
 ## Overview
-In this project, we use Data/ML Engineering to process real disaster messages provided by [FigureEight to build a ML model so an API can classify disaster messages](https://www.vertosoft.com/figureeight).
+In this project, we use Data/ML Engineering to process real disaster messages provided by [FigureEight](https://appen.com/datasets/combined-disaster-response-data/) (Now Appen) to build a ML model so an API can classify disaster messages.
 
-Here, I've created a Data/ML pipeline to categorize these events so that any meesage gets categorized as an emergency and possibly routed to the appropriate Emergency Response Agency.
+Here, I've created a Data/ML [pipeline](https://towardsdatascience.com/data-science-for-startups-data-pipelines-786f6746a59a) to categorize these events so that any message gets categorized as an emergency and possibly routed to the appropriate Emergency Response Agency.
 
 The project includes a Flask web app where an emergency worker can input a new messages and get classification results on several categories. The web app will also display some visualizations of the data.
 
